@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: aliceblue;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+.green {
+  background-color: #58A399;
+}
+
+.green-font {
+  color: #58A399;
+}
+
+.active {
+  background-color: #58A399;
+}
+.active .poster-card {
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0.135rem 0.5rem rgba(0, 0, 0, 0.144) !important;
+  border: none;
+  transition: all 2s;
+  color: white;
+}
+
+.card-5 {
+  cursor: pointer;
+  transition: all 1s;
+}
+.card-5 .card .card-body {
+  height: 300px;
+  /* Gaya scrollbar kustom */
+  /* Track */
+  /* Handle */
+  /* Handle saat dihover */
+}
+.card-5 .card .card-body .row,
+.card-5 .card .card-body .col {
+  height: 100%;
+}
+.card-5 .card .card-body .poster-card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.card-5 .card .card-body .details {
+  position: relative;
+  width: 100%;
+  top: 190px;
+  left: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 30px 10px;
+  text-align: center;
+  color: #000000;
+  -webkit-text-stroke: 0.3px rgba(255, 255, 255, 0.8274509804);
+  border-radius: 10px;
+  z-index: 99;
+}
+.card-5 .card .card-body #content {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.card-5 .card .card-body #content::-webkit-scrollbar {
+  width: 3px;
+  /* Lebar scrollbar */
+  border-radius: 50px;
+}
+.card-5 .card .card-body #content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Warna latar belakang track */
+}
+.card-5 .card .card-body #content::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  /* Warna handle scrollbar */
+}
+.card-5 .card .card-body #content::-webkit-scrollbar-thumb:hover {
+  background: #bdbdbd;
+  /* Warna handle saat dihover */
+}
+.card-5 .card .card-body .desc {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+}
+.card-5 .card .card-body .desc ul {
+  margin-top: -10px;
+}
+
+.asd {
+  height: 200px;
+}
+.asd .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-primary {
+  padding: 0 30px;
+  height: 250px;
+  background-image: url("https://images8.alphacoders.com/133/1333660.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-radius: 30px;
+  padding: 0;
+  overflow: hidden;
+}
+.card-primary .cover {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7607843137));
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem;
+}
+.card-primary video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-primary .card-body .info {
+  position: absolute;
+  margin-top: 15px;
+}
+.card-primary .card-body .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.card-primary .card-body .bottom .btn {
+  padding: 7px 40px;
+  border-radius: 14px;
+  margin-right: 15px;
+}
